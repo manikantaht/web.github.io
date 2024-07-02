@@ -1,0 +1,47 @@
+.jumbotron {
+    background:  no-repeat center right fixed url(background.jpg);
+    background-size: 100%;
+    background-size: cover;
+    margin-bottom: 0px;
+    padding: 0px;
+    height: 50%;
+    width: 100%;
+}
+.bottop{
+    animation: bottopani 3s 1;
+}
+.name{
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    animation: anim1 5s  1 ;
+}
+
+
+@keyframes anim1 {
+    0%{
+        color: white;
+    }
+    80%{
+        color: blue;
+    }
+    100%{
+        color: black;
+    }
+}
+@keyframes mainani {
+    0%{
+        color: transparent;
+    }
+    50%{
+
+    }
+    
+}
+@keyframes bottopani {
+    0%{
+        margin-top: 100px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
